@@ -1,0 +1,33 @@
+.skills {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #17181f;
+  width: 100%;
+}
+.header {
+  display: flex;
+  color: #eeedf0;
+  font-size: 90px;
+  display: flex;
+}
+.text {
+  width: 150%;
+  display: flex;
+  font-size: 20px;
+  color: #eeedf0;
+  align-items: center;
+  justify-content: center;
+  background-color: #3e3f49;
+  border-radius: 20px;
+}
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

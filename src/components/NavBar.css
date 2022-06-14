@@ -1,0 +1,21 @@
+.container {
+  width: 100vw;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+  background-color: #17181f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.item {
+  border-radius: 15px;
+  padding: 8px;
+  margin: 8px;
+  color: #eeedf0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
