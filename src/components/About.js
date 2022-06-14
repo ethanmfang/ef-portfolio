@@ -1,4 +1,5 @@
 import React from "react";
+import Email from "./Email";
 import "./About.css";
 
 const About = () => {
@@ -7,7 +8,8 @@ const About = () => {
       <div className="LeftSection">
         <h1 className="Header">Ethan Fang</h1>
         <p className="Title">Front-End Developer</p>
-        <div className="Line"></div>
+        <div className="aboutLine"></div>
+        <Email />
         <div className="Container">
           <div className="GradientContainer">
             <a className="Links" href="https://github.com/ethanmfang">
@@ -21,7 +23,6 @@ const About = () => {
             </a>
           </div>
         </div>
-        <div className="Email">ethanmfang@gmail.com</div>
       </div>
       <div className="RightSection">
         <p className="Summary">
