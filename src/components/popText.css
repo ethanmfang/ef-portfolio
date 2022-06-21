@@ -1,0 +1,26 @@
+.popText {
+  margin: auto;
+  opacity: 0;
+  font-size: 14px;
+  transition: 0.6s;
+}
+.popTextAction {
+  margin: auto;
+  opacity: 1;
+  font-size: 14px;
+}
+.copy {
+  background-color: transparent;
+  border: none;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.Email {
+  display: flex;
+  flex-direction: column;
+}

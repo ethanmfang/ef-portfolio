@@ -34,12 +34,14 @@
   transition: 0.3s;
   cursor: default;
 }
+
 .bubble:hover {
   background-color: #33353d;
   width: 155%;
 }
 .text {
   display: flex;
+  margin-bottom: 3px;
 }
 .skillsContainer {
   display: flex;

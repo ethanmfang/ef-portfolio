@@ -6,20 +6,20 @@ const Skills = () => {
     <div className="skills">
       <ul className="skillsContainer">
         <li className="bubble">
-          <i class="fa-brands fa-react" />
+          <i className="fa-brands fa-react" />
           <div className="text">React</div>
         </li>
         <li className="bubble">
-          <i class="fa-solid fa-code" />
+          <i className="fa-solid fa-code" />
           <div className="text">HTML</div>
         </li>
         <li className="bubble">
-          <i class="fa-brands fa-css3-alt" />
+          <i className="fa-brands fa-css3-alt" />
           <div className="text">CSS</div>
         </li>
         <li className="bubble">
-          <i class="fa-brands fa-js" />
-          <div className="">Javascript</div>
+          <i className="fa-brands fa-js" />
+          <div className="text">Javascript</div>
         </li>
       </ul>
       <div>
