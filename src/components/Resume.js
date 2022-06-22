@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Resume.css";
 import { Modal, Button, Spacer, Text, Image } from "@nextui-org/react";
+import ResumeImage from "./test.png";
 
 const Resume = () => {
   const [visible, setVisible] = useState(false);
@@ -45,7 +46,7 @@ const Resume = () => {
           <div className="text">Download</div>
         </a>
       </ul>
-      <Modal closeButton open={visible} onClose={closeHandler}>
+      <Modal width="700px" closeButton open={visible} onClose={closeHandler}>
         <Modal.Header>
           <Text size={18}>
             Ethan Fang
@@ -55,7 +56,7 @@ const Resume = () => {
           </Text>
         </Modal.Header>
         <Modal.Body>
-          <Image src="test.png" width={1000} height={1200} />
+          <Image src={ResumeImage} width="100%" height="100%" />
         </Modal.Body>
       </Modal>
     </div>
