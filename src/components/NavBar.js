@@ -1,13 +1,24 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./NavBar.css";
 
 const NavBar = () => {
+  const aboutRef = useRef();
+
+  function aboutScroll() {
+    aboutRef.current.scrollIntoView({
+      behavior: "smooth",
+      block: "nearest",
+    });
+  }
+
   return (
     <ul className="navContainer">
-      <li className="item">About</li>
+      <li ref={aboutRef} onClick={aboutScroll} className="item">
+        About
+      </li>
       <li className="item">Skills</li>
       <li className="item">Resume</li>
-      <li className="item">Portfolio</li>
+      <li className="item">Projects</li>
     </ul>
   );
 };

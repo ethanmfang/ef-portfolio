@@ -1,10 +1,11 @@
 .Resume {
   justify-content: space-around;
-  align-items: center;
+  align-items: baseline;
   display: flex;
   flex-direction: row;
   padding-bottom: 50px;
   background-color: #33353d;
+  width: 100vw;
 }
 .bubble2 {
   width: 100%;
