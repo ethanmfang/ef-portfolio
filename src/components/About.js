@@ -7,16 +7,16 @@ const About = () => {
     <div className="About">
       <div className="LeftSection">
         <h1 className="Header">Ethan Fang</h1>
-        <p className="Title">Front-End Developer</p>
+        <p className="Title">
+          Front-End Development &nbsp; | &nbsp; Test Automation
+        </p>
+        <br />
         <div className="aboutLine"></div>
         <Email />
         <div className="Container">
           <div className="GradientContainer">
             <a className="Links" href="https://github.com/ethanmfang">
               GitHub
-            </a>
-            <a className="Links" href="https://codepen.io/ethanmfang">
-              CodePen
             </a>
             <a className="Links" href="https://www.linkedin.com/in/ethanmfang/">
               LinkedIn

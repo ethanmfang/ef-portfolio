@@ -1,13 +1,14 @@
-import MenuCard from "./MenuCard.png";
+// import MenuCard from "./MenuCard.png";
 import ResDetailsForm from "./ResDetailsForm.png";
 import ToitTabs from "./ToitTabs.png";
+import Clamazon from "./Clamazon.png";
 
 const data = [
   {
-    title: "React Component",
-    image: MenuCard,
-    languages: ["TypeScript", "styled-components"],
-    link: "https://codesandbox.io/s/react-forked-5775we?file=/MenuCard.tsx",
+    title: "",
+    image: Clamazon,
+    languages: ["React & Material UI", "Cypresss"],
+    link: "https://github.com/ethanmfang/e-store",
   },
   {
     title: "ToitTabs",

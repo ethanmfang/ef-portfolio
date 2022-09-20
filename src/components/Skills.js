@@ -6,6 +6,20 @@ const Skills = () => {
     <div className="skills">
       <ul className="skillsContainer">
         <li className="bubble">
+          <i className="fa-brands fa-js" />
+          <div className="text">Javascript</div>
+        </li>
+        <li className="bubble">
+          <i className="fa-brands fa-css3-alt" />
+          <div className="text">CSS</div>
+        </li>
+        <li className="bubble">
+          <div className="text">Jest</div>
+        </li>
+        <li className="bubble">
+          <div className="text">and more!</div>
+        </li>
+        <li className="bubble">
           <i className="fa-brands fa-react" />
           <div className="text">React</div>
         </li>
@@ -14,12 +28,12 @@ const Skills = () => {
           <div className="text">HTML</div>
         </li>
         <li className="bubble">
-          <i className="fa-brands fa-css3-alt" />
-          <div className="text">CSS</div>
+          <i className="fa-brands fa-js" />
+          <div className="text">Cypress</div>
         </li>
         <li className="bubble">
           <i className="fa-brands fa-js" />
-          <div className="text">Javascript</div>
+          <div className="text">TypeScript</div>
         </li>
       </ul>
       <div>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Resume.css";
 import { Modal, Button, Spacer, Text, Image } from "@nextui-org/react";
-import ResumeImage from "./test.png";
+import ResumeImage from "./Ethan-Fang-Resume.png";
 
 const Resume = () => {
   const [visible, setVisible] = useState(false);
@@ -40,7 +40,7 @@ const Resume = () => {
           <Spacer x={0.4} />
           <div className="text">View</div>
         </Button>
-        <a className="bubble2" href="test.pdf" download>
+        <a className="bubble2" href="Ethan-Fang-Resume.pdf" download>
           <i className="fa-solid fa-download" />
           <Spacer x={0.1} />
           <div className="text">Download</div>
