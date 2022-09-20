@@ -1,5 +1,5 @@
 import "./App.css";
-import NavBar from "./components/NavBar";
+// import NavBar from "./components/NavBar";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Resume from "./components/Resume";
@@ -10,7 +10,7 @@ import Projects from "./components/Projects";
 function App() {
   return (
     <NextUIProvider>
-      <NavBar />
+      {/* <NavBar /> */}
       <About />
       <Skills />
       <Resume />
