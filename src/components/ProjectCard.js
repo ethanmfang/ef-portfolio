@@ -4,6 +4,10 @@ import { Card, Col, Row, Button, Text, Link } from "@nextui-org/react";
 const textColor = "#000";
 
 const ProjectCard = ({ data }) => {
+  const openBuild = (url) => {
+    window.open(url);
+  };
+
   return (
     <Card css={{ w: "300px", h: "400px" }}>
       <Card.Header css={{ position: "absolute", h: "35px" }}>
@@ -13,7 +17,12 @@ const ProjectCard = ({ data }) => {
           </Text>
         </Col>
       </Card.Header>
-      <Card.Body css={{ p: 0 }}>
+      <Card.Body
+        css={{ p: 0 }}
+        onClick={() => {
+          openBuild(data.build);
+        }}
+      >
         <Card.Image
           src={data.image}
           width="100%"
