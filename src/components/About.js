@@ -8,7 +8,7 @@ const About = () => {
       <div className="LeftSection">
         <h1 className="Header">Ethan Fang</h1>
         <p className="Title">
-          Front-End Development &nbsp; | &nbsp; Test Automation
+          Front-End Developer &nbsp; | &nbsp; Test Automation
         </p>
         <br />
         <div className="aboutLine"></div>
@@ -25,12 +25,7 @@ const About = () => {
         </div>
       </div>
       <div className="RightSection">
-        <p className="Summary">
-          I'm just a guy trying to program some stuff with my fingers! I'm just
-          a guy trying to program some stuff with my fingers! I'm just a guy
-          trying to program some stuff with my fingers! I'm just a guy trying to
-          program some stuff with my fingers!
-        </p>
+        <p className="Summary">TYPE THIS</p>
       </div>
     </div>
   );
